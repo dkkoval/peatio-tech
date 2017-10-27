@@ -136,4 +136,48 @@ if($.find('#countdown')[0]) {
 
 /*----- Subscription Form ----- */
 
+$(document).ready(function() {
+  // jQuery Validation
+  $("#signup").validate({
+    // if valid, post data via AJAX
+    submitHandler: function(form) {
+      $.ajax({
+        url: '/subscribers',
+        contentType: 'application/json',
+        type: 'POST',
+        data: JSON.stringify({ email: $("#email").val() })
+      }).done(function () {
+        $('.cta-inner').height($('.cta-inner').height()).width($('.cta-inner').width())
+        $('.cta-inner').children().fadeOut('fast').hide();
+        $('.cta-inner>h1')
+          .html(`<span style="font-size: 1.5em; font-weight: light">
+                   Thank you!
+                 </span><br/>
+                 <span style="font-size: 0.8em; font-weight: lighter">
+                   You will get reply soon!
+                 </span>')`)
+          .fadeIn('fast')
+      }).error(function (err) {
+        $('#email').css('-webkit-box-shadow', '0 0 0 100px #ff9f9f inset')
+        $('#email').css('color', '#993c3c')
+        $('#email').after('<label id="email-error" class="error" for="email">Oups! We got an error: ' + err.statusText + '</label>')
+        setTimeout(function () {
+          $('#email').css('-webkit-box-shadow', '0 0 0 100px #ffffff inset')
+          $('#email-error').fadeOut('fast')
+        }, 7000)
+      });
+      // $.post("assets/php/subscribe.php", { email: $("#email").val() }, function(data) {
+        // $('#response').html(data);
+      // });
+    },
+    // all fields are required
+    rules: {
+      email: {
+        required: true,
+        email: true
+      }
+    }
+  });
+});
+
 });

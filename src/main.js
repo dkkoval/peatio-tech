@@ -37,7 +37,6 @@ import Tech from '@/components/Tech'
 import Features from '@/components/Features'
 import Platform from '@/components/Platform'
 import Pricing from '@/components/Pricing'
-import Email from '@/components/Email'
 
 Vue.component('Header', Header)
 Vue.component('Client', Client)
@@ -45,7 +44,6 @@ Vue.component('Tech', Tech)
 Vue.component('Features', Features)
 Vue.component('Platform', Platform)
 Vue.component('Pricing', Pricing)
-Vue.component('Email', Email)
 
 /* eslint-disable no-new */
 new Vue({
