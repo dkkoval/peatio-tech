@@ -1,0 +1,116 @@
+.navbar {
+  font-size: 0.9rem;
+  font-family: Poppins;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-top: 1.5rem;
+  letter-spacing: 1px;
+  height: 80px !important;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-backface-visibility: hidden;
+}
+
+.navbar-default {
+  transition: all 0.6s ease;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.navbar-toggle {
+  margin-top: 0px;
+}
+
+.navbar-default .navbar-toggle {
+  border-radius: 0px;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+  color: #222222;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #111111;
+}
+
+.navbar-default .navbar-brand .navbar-toggle .collapsed {
+  padding: 4px 6px;
+  font-size: 1rem;
+  color: #111111;
+}
+
+.navbar-default .navbar-brand {
+  padding-top: 5px;
+  color: #111111;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
+
+.navbar-default .navbar-brand:hover {
+  transition: 1s;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #111111;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5;
+  transition: all 0.5s;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #A1A1A1;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background: transparent;
+  color: #222222;
+}
+
+
+.navbar-default .navbar-nav > .active > a:hover {
+  background: transparent;
+  color: #333333;
+}
+
+.navbar-default .navbar-nav > .active > a:focus {
+  background: transparent;
+  color: #111111;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-toggle {
+  color: #111111;
+}
+
+.navbar-default .nav-white > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .nav-white > li > a:hover {
+  color: #999999;
+}
+
+.navbar-default .navbar-brand.nav-white {
+  padding-top: 15px;
+  color: #ffffff;
+  font-size: 21px;
+  letter-spacing: 1px;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}

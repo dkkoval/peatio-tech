@@ -1,0 +1,347 @@
+@media only screen and (max-width: 767px) {
+  .navbar {
+    padding-top: 5px;
+    height: 60px;
+  }
+
+  .navbar-default {
+    border: 0px;
+    background-color: transparent;
+  }
+
+  .navbar-default .navbar-collapse {
+    text-align: center;
+    border-color: transparent;
+    background-color: #ffffff;
+  }
+
+  .navbar-default .navbar-collapse {
+    border: 0;
+    border-color: transparent;
+  }
+
+  .navbar-default .navbar-nav > li> a {
+    color: #222222;
+    margin-top: 10px;
+  }
+
+  .navbar-default .navbar-nav > li> a:hover {
+    color: #222222;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #ffffff;
+    padding-left: 15px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .navbar-default .navbar-brand.nav-white {
+    color: #ffffff;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #111111;
+  }
+}
+
+@media only screen and (min-width: 240px) {
+  .navbar.past-main {
+    font-size: 0.9rem;
+    padding-top: 0.5rem !important;
+    height: 60px !important;
+    background-color: rgba(255, 255, 255, 0.99);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  .navbar-default.past-main .navbar-brand {
+    color: #111111;
+  }
+
+  .navbar-default.past-main .navbar-toggle .icon-bar {
+    background-color: #111111;
+  }
+
+  .navbar-default.past-main .navbar-nav > li > a {
+    color: #222222;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+  }
+
+  .navbar-default.past-main .navbar-nav > li > a:hover {
+    color: #111111;
+  }
+
+  .navbar-default.past-main .navbar-nav > .active > a {
+    background: transparent;
+    color: #567;
+  }
+
+  .navbar-default.past-main .navbar-nav > .active > a:hover {
+    background: transparent;
+    color: #222222;
+  }
+
+  .navbar-default.past-main .navbar-nav > .active > a:focus {
+    background: transparent;
+    color: #567;
+  }
+}
+
+.navbar-default .nav-white .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default.past-main .nav-white .navbar-toggle .icon-bar {
+  background-color: #111111;
+}
+
+.nav > li > a {
+  padding: 10px 10px !important;
+}
+
+@media only screen and (min-width: 767px) {
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .hero-section {
+    padding: 150px 0 100px 0;
+  }
+
+  .form {
+    .hero-section {
+      padding: 150px 0 50px 0;
+    }
+
+    .hero-content {
+      padding: 100px 0 100px 0;
+      overflow: hidden;
+    }
+
+    .hero-content h1 {
+      font-size: 54px;
+    }
+  }
+
+  .product .hero-content {
+    padding: 150px 0 100px 0;
+    text-align: left;
+  }
+
+  .hero-content {
+    h1 {
+      font-size: 48px;
+      margin: 0 0 20px 0;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 700;
+      font-family: Quicksand;
+      color: #828282;
+    }
+  }
+
+  .about-content h2 {
+    font-size: 38px;
+  }
+
+  .software .hero-content h1 {
+    font-size: 42px;
+  }
+
+  .image-bg .hero-content h1 {
+    font-size: 54px;
+  }
+
+  .signup .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .features .features-list {
+    padding: 100px 0 0 0;
+    text-align: left;
+  }
+
+  .features .features-list ul li {
+    font-size: 18px;
+    display: list-item;
+    text-align: left;
+  }
+
+  .software .features {
+    padding: 10px 0 10px 0;
+  }
+
+  .space {
+    padding-top: 50px ! important;
+  }
+
+  .software .features .features-list h1 {
+    font-size: 34px;
+    margin-top: 0px;
+    font-family: Quicksand;
+  }
+
+  .software .features .features-list {
+    padding: 0 0 0 0;
+  }
+
+  .software .features .features-list ul li {
+    display: list-item;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .feature-sub {
+    padding: 200px 0 200px 0;
+  }
+
+  .feature-sub .sub-inner h1 {
+    font-size: 42px;
+  }
+
+  .software .feature-sub .sub-inner h1 {
+    font-size: 42px;
+    font-family: Quicksand;
+  }
+
+  .split-content {
+    padding: 120px 100px 50px 10px;
+    text-align: left;
+  }
+
+  .split-content h1 {
+    font-size: 42px;
+  }
+
+  .pricing {
+    padding: 100px 0 100px 0;
+  }
+
+  .pricing-content {
+    text-align: left;
+  }
+
+  .cta-sub .cta-inner h1 {
+    font-family: Quicksand;
+    font-size: 36px;
+  }
+
+  .cta-inner {
+    max-width: 600px;
+    float: right;
+  }
+
+  .contact {
+    text-align: center;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px !important;
+    }
+
+    a {
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .features .features-list {
+    padding: 80px 0 0 0;
+  }
+
+  .split-content {
+    padding: 100px 100px 50px 50px;
+    text-align: left;
+  }
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+
+  .formee input {
+    padding: 0 30px 0 20px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .formee .right {
+    padding: 0 5px 0 5px;
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+
+@media screen and (max-width: 399px) {
+  .cta-sub {
+    text-align: center;
+  }
+
+  .subscribe-form {
+    text-align: center;
+  }
+
+  .formee {
+    input {
+      text-align: center;
+      padding: 0 0 0 0;
+      border-radius: 5px 0 0 5px;
+    }
+
+    .right {
+      padding: 0 5px 0 5px;
+      border-radius: 0 5px 5px 0;
+      margin-top: 15px;
+    }
+  }
+
+  .form {
+    .sub-form {
+      .subscribe-form {
+        text-align: left;
+      }
+
+      .formee input {
+        text-align: center;
+        padding: 0 0 0 0;
+        border-radius: 5px 0 0 5px;
+      }
+
+      .formee .right {
+        padding: 0 5px 0 5px;
+        border-radius: 0 5px 5px 0;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .back-to-top {
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1201px) {
+  .app-features .features-left, .app-features .features-right {
+    padding: 0;
+  }
+
+  .software .features .features-list {
+    padding: 0;
+  }
+}
+
+.navbar-brand {
+  display: block;
+  position: relative;
+  width: 12rem !important;
+  height: auto !important;
+}

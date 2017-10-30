@@ -31,12 +31,6 @@
 
 <script>
 export default {
-  name: 'navbar',
-  /*eslint-disable*/
-  mounted: function () {
-    $('body').scrollspy({
-      target: '.index-nav'
-    })
-  }
+  name: 'navbar'
 }
 </script>

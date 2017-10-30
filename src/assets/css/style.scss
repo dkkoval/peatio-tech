@@ -1,0 +1,1580 @@
+/*-----------------
+3. Home page Hero Sections
+4. Pitch Section Styling
+5. Features Section Styling
+6. Review Styling
+7. Pricing section
+8. Subscribe Section
+------------------*/
+
+@import "./scss/helpers";
+@import "./scss/navbar";
+
+/* ------------------------------------------------------
+-------------- Main Section Styling Starts --------------
+--------------------------------------------------------*/
+
+#main {
+  height: 100%;
+}
+
+/* ----- Hero Section Styling Starts ----- */
+
+.hero-section {
+  height: 100%;
+  background: #ffffff;
+  padding: 150px 0 0 0;
+}
+
+.hero-content {
+  padding: 30px 0 50px 0;
+  overflow: hidden;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #262626;
+  letter-spacing: -1px;
+  padding-top: 20px;
+  margin: 0 20px 0 0;
+}
+
+.hero-content h2 {
+  font-size: 26px;
+  color: #262626;
+  letter-spacing: -1px;
+  padding-top: 0px;
+  margin: 0 0 20px 0;
+}
+
+.hero-content p {
+  font-family: Poppins;
+  font-size: 14px;
+  color: #A1A1A1;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 50px 0;
+}
+
+.btn-action {
+  font-family: Roboto;
+  background-color: #3333CC;
+  border: 1px solid #3333CC;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1;
+  padding: 10px 21px;
+  text-transform: uppercase;
+  outline: none;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
+
+.btn-action:hover, .btn-action:focus,
+.btn-action:active, .btn-action:active:focus {
+  background: transparent;
+  outline: none;
+  color: #3333CC;
+  background: transparent;
+  border-color: #3333CC;
+}
+
+.product .btn-action {
+  background-color: transparent;
+  border: 1px solid #82714a;
+  color: #82714a;
+}
+
+.product .btn-action:hover, .product  .btn-action:focus {
+  background: #92714A;
+  color: #ffffff;
+  border-color: #82714A;
+}
+
+/* ----------- App Home ---------*/
+
+.software .hero-section {
+  padding: 100px 0 0 0;
+  background: #e0e0e0;
+}
+
+.software .hero-content h1 {
+  font-size: 34px;
+  font-family: Quicksand;
+  font-weight: 600;
+  color: #444444;
+  margin: 0 0 50px 0;
+}
+
+.software .btn-action {
+  font-family: Arial;
+  background-color: #212f3e;
+  border: 1px solid #212f3e;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  outline: none;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
+
+.software .btn-action:hover, .software .btn-action:focus,
+.software .btn-action:active, .software .btn-action:active:focus {
+  background: transparent;
+  outline: none;
+  color: #212f3e;
+  background: transparent;
+  border-color: #212f3e;
+}
+
+.software .hero-section img {
+  margin: 0 auto;
+}
+
+/*---------------- Form Home Styling ------------------- */
+
+.form .hero-section {
+  background: #F2F2F2;
+  background-size: cover;
+  padding: 150px 0 0 0;
+}
+
+.form .hero-content {
+  padding: 50px 0 50px 0;
+  overflow: hidden;
+}
+
+.form img {
+  margin: 0 auto;
+}
+
+.form .hero-content h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #222222;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  margin: 0 0 20px 0;
+}
+
+.form .hero-content p {
+  font-family: Poppins;
+  font-size: 14px;
+  color: #A1A1A1;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 0 25px 0;
+}
+
+.form .sub-form {
+  padding: 30px 0 0 0;
+  text-align: left;
+}
+
+.form .subscribe-form .submit-button {
+  font-size: 0.9em;
+  height: 40px;
+  border: 2px solid;
+  border-radius: 0 5px 5px 0;
+  margin: 0;
+  padding: 0 25px 0 25px;
+  border-color: #ffffff;
+  background-color: #3333CC;
+  color: #ffffff;
+  box-shadow: 0 0 1px transparent;
+  outline: none;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  transition: 500ms;
+}
+
+.form .subscribe-form .submit-button:hover {
+  border-color: #3333CC;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  transition: 500ms;
+}
+
+.form .btn-action {
+  background: #3333CC;
+  border-color: #3333CC;
+  color: #ffffff;
+}
+
+.form .btn-action:hover {
+  background: transparent;
+  border-color: #3333CC;
+  color: #3333CC;
+}
+
+/*-----------------------------------------------------
+-------------- Image Bg Styling Starts ----------------
+------------------------------------------------------*/
+
+.image-bg .hero-section {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(~@/assets/img/image-bg.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 150px 0 100px 0;
+}
+
+.image-bg .hero-content h1 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.image-bg .hero-content p {
+  color: #ffffff;
+}
+
+/* ------------ Signup Hero Section ------------ */
+
+.signup .hero-section {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(~@/assets/img/app_bg.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 150px 0 100px 0;
+}
+
+.signup .hero-content {
+  padding: 50px 0 100px 0;
+}
+
+.signup .hero-content h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.signup .hero-content p {
+  color: #ffffff;
+}
+
+.signup-form {
+  padding: 25px 25px 30px 25px;
+  background: #3333CC;
+  -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+  text-align: left;
+}
+
+.signup-form h1 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 1.4;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+
+.signup-form form textarea {
+  height: 100px;
+}
+
+.signup-form form .input-error {
+  border-color: #19b9e7;
+}
+
+.signup-form p {
+  font-family: Poppins;
+  font-size: 12px;
+  color: #DDDDDD;
+  margin: 25px 0 10px 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.signup .btn-action.btn-round {
+  background: #3333CC;
+  border-color: #3333CC;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 12px 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: 2px solid #3333CC;
+  border-radius: 30px;
+}
+
+.signup .btn-action.btn-round:hover, .signup .btn-action.btn-round:focus {
+  background: transparent;
+  color: #3333CC;
+  border-color: #3333CC;
+}
+
+.signup .btn-action {
+  background: #3333CC;
+  border-color: #3333CC;
+  color: #ffffff;
+}
+
+.signup .btn-action:hover {
+  background: transparent;
+  border-color: #3333CC;
+  color: #3333CC;
+}
+
+input[type="text"],
+textarea,
+textarea.form-control {
+  height: 45px;
+  margin: 0;
+  padding: 0 20px;
+  vertical-align: middle;
+  background: #F8F8F8;
+  border: 1px solid #DDDDDD;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #888888;
+  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+  -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+  -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+textarea,
+textarea.form-control {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 30px;
+}
+
+input[type="text"]:focus,
+textarea:focus,
+textarea.form-control:focus {
+  outline: 0;
+  background: #ffffff;
+  border: 1px solid #111;
+  -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+
+input[type="text"]:-moz-placeholder, textarea:-moz-placeholder, textarea.form-control:-moz-placeholder { color: #888; }
+input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder { color: #888; }
+input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: #888; }
+
+.signup-form button.btn {
+  height: 45px;
+  margin: 0;
+  padding: 0 20px;
+  vertical-align: middle;
+  background: #111111;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  color: #ffffff;
+  text-transform: uppercase;
+  -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+  text-shadow: none;
+  -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+  -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.signup-form button.btn:hover {
+  opacity: 0.6; color: #ffffff;
+}
+
+.signup-form button.btn:active {
+  outline: 0;
+  opacity: 0.6;
+  color: #ffffff;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.signup-form button.btn:focus {
+  outline: 0;
+  opacity: 0.6;
+  background: #19b9e7;
+  color: #fff;
+}
+
+.signup-form button.btn:active:focus, button.btn.active:focus {
+  outline: 0;
+  opacity: 0.6;
+  background: #19b9e7;
+  color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+  .signup-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+/*-------------------------------------------------------
+---------------- Slider Section Styling -----------------
+--------------------------------------------------------*/
+
+.slider-pro .sp-slide {
+  background: #222222;
+}
+
+.slider-pro h2.sp-layer {
+  font-size: 44px !important;
+  color: #111111;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.slider-pro p.sp-layer {
+  font-size: 16px;
+  color: #A1A1A1;
+  line-height: 1.4;
+}
+
+.slider-pro a {
+  text-decoration: none;
+  color: #444444;
+  -webkit-transition: 0.5s !important;
+  -moz-transition: 0.5s !important;
+  transition: 0.5s !important;
+}
+
+.slider-pro .link-color {
+  text-decoration: none;
+  color: #111;
+  -webkit-transition: 0.5s !important;
+  -moz-transition: 0.5s !important;
+  transition: 0.5s !important;
+}
+
+.slider-pro a:hover {
+  color: #999999;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .slider-pro h2.sp-layer {
+    font-size: 34px !important;
+
+  }
+}
+
+
+/* -----------------------------------------------------
+--------------- App Home Styling starts ----------------
+--------------------------------------------------------*/
+
+
+.app .hero-section {
+  padding: 50px 0 0 0;
+}
+
+.app .hero-content {
+  padding: 100px 0 0 0;
+}
+
+.app img {
+  margin: 0 auto;
+}
+
+.app-info h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #404040;
+  margin-top: 30px !important;
+}
+
+.app-info h4 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  color:  #3C4B5D;
+  line-height: 1.4;
+  margin-top: 20px;
+}
+
+.app-info i {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.app-info span {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  color: #222222;
+}
+
+.app-info .ion {
+  font-size: 1em;
+  color: #ff8000;
+}
+
+.download-buttons {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.download-buttons img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.app .btn-action {
+  color: #ffffff;
+  background: #3333CC;
+  border-color: #3333CC;
+}
+
+.app .btn-action:hover {
+  color: #3333CC;
+  background: transparent;
+  border-color: #3333CC;
+}
+
+
+
+/*----------------------------------------------------
+-------------- Split Home Coming Soon ----------------
+-----------------------------------------------------*/
+
+
+.cs-main .left-section {
+  background-color: #F2F2F2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.cs-main .right-section {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0 20px 0 20px;
+  width: 50%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 99;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.cs-main .hero-section {
+  padding: 120px 0 0 0;
+  background: #ffffff !important;
+}
+
+.cs-main .hero-content {
+  padding: 50px 0 0 0;
+}
+
+.cs-main .app-info h1 {
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.cs-main .left-section {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(~@/assets/img/split-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width : 801px) {
+
+  .cs-main .right-section{
+    position: relative;
+    width: 100%;
+  }
+
+  .cs-main .hero-section {
+    padding: 50px 0 0 0;
+  }
+
+
+  .cs-main .left-section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+
+
+/*-------------------------------------------------
+----------- About Section Styling Starts ----------
+--------------------------------------------------*/
+
+.about {
+  padding: 100px 0 100px 0;
+  background: #F1F1F1;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-family: 'Josefin Sans';
+  font-size: 24px;
+  line-height: 1.2;
+  color: #111111;
+}
+
+.about-content h3 {
+  font-family: 'Josefin Sans';
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #111111;
+  margin: 50px 0 0 0;
+}
+
+
+
+/* ----- Client Sectiion Styling ----- */
+
+.client-section {
+  background-color: #e0e0e0;
+  padding: 5px 0 0 0;
+}
+
+.clients .single {
+  padding: 25px 0 25px 0;
+}
+
+.clients .single img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.3;
+  height: 40px;
+}
+.single img {
+  height: 3rem;
+  width: auto;
+}
+
+/*----------------------------------------------------
+----------- Pitch Section Styling Starts ----------
+-----------------------------------------------------*/
+
+
+.pitch {
+  padding: 100px 0 50px 0;
+  background: #ffffff;
+}
+
+.stack {
+  background-color: #e0e0e0;
+  margin: 0px 0 50px 0;
+  padding: 0px;
+}
+
+.pitch-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 0 100px 0;
+}
+
+.pitch-intro h1 {
+  font-size: 34px;
+  font-family: Quicksand;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  color: #454545;
+  margin: 0 0 30px 0;
+}
+
+
+.pitch-intro p {
+  font-family: 'Quicksand';
+  font-size: 14px;
+  line-height: 1.5;
+  color: #303030;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.pitch-icon {
+  margin: 0 0 10px 0;
+  background: #212f3e;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.pitch-icon i {
+  font-size: 34px;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 13px;
+}
+
+#univ {
+  left: 4px;
+}
+
+.pitch-content {
+  padding: 10px 0 50px 0;
+}
+
+.pitch-content h1 {
+  font-size: 22px;
+  font-family: Quicksand;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0;
+  color: #454545;
+  margin: 0 0 10px 0;
+}
+
+.pitch-content p {
+  font-family: 'Quicksand';
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #303030;
+  letter-spacing: 0;
+}
+
+
+/*----------------------------------------------------
+----------- Features Icon Styling Starts -------------
+-----------------------------------------------------*/
+
+.icon-features {
+  padding: 100px 0 50px 0;
+}
+
+.icon-features-intro {
+  padding: 0 0 50px 0;
+}
+
+.icon-features-intro h1 {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.icon-features-intro p {
+  font-size: 16px;
+  color: #A1A1A1;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.f-single {
+  position: relative;
+  padding: 10px 0 80px 0;
+}
+
+.f-icon i {
+  font-size: 54px;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.f-content {
+  padding-left: 80px;
+}
+
+.f-content h2 {
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.f-content p {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  color: #4D4D4D;
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+/*----------------------------------------------------
+----------- Features Section Styling Starts ----------
+-----------------------------------------------------*/
+
+
+.features {
+  padding: 25px 0 25px 0;
+}
+
+.features-inner {
+  width: 100%;
+}
+
+.features .features-list {
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.features .features-list h1 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1;
+  color: #222222;
+  margin: 0 0 30px 0;
+}
+
+.features .features-list ul {
+  list-style-type: circle;
+  padding-left: 20px;
+  text-align: center;
+}
+
+
+.features .features-list ul li {
+  display: block;
+  margin: 0 0 15px 0;
+  font-family: 'Josefin Sans';
+  font-size: 16px;
+  line-height: 1.2;
+  color: #A1A1A1;
+}
+
+/* ----- App Features List ----- */
+
+.software .features {
+  padding: 0px 0 100px 0;
+}
+
+.software .features .features-list h1 {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  color: #222222;
+  margin: 20px 0 20px 0;
+}
+
+.software .features-list p {
+  margin: 0 0 25px 0;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #303030;
+}
+
+.software .features .features-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+
+.software .features .features-list ul li {
+  font-family: Poppins;
+  display: block;
+  font-size: 13px;
+  margin: 0 0 15px 0;
+  color: #A1A1A1;
+}
+
+
+/* --------------- Feature Sub ------------ */
+
+.sub-inner {
+  max-width: 500px;
+  float: right;
+}
+
+.feature-sub {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(146, 127, 84, 0.99)), url(~@/assets/img/feature-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0 150px 0;
+
+  .sub-inner {
+    h1 {
+      font-family: 'Josefin Sans';
+      font-size: 34px;
+      font-weight: 300;
+      line-height: 1;
+      color: #ffffff;
+      margin: 0 0 30px 0;
+    }
+
+    .btn-action {
+      color: #ffffff;
+      background: #212f3e;
+      border-color: #212f3e;
+    }
+
+    .btn-action:hover {
+      color: #212f3e;
+      background: transparent;
+      border-color: #212f3e;
+    }
+  }
+}
+
+
+.product .feature-sub .sub-inner .btn-action {
+  color: #ffffff;
+  background: #82714a;
+  border-color: #82714a;
+
+  &:hover {
+    color: #82714a;
+    background: transparent;
+    border-color: #82714a;
+  }
+}
+
+.feature-sub {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(~@/assets/img/image-bg.jpg);
+  padding: 150px 0 150px 0;
+}
+
+.sub-inner {
+  max-width: 500px;
+  float: left;
+}
+
+/* --------- App Features Sub ------- */
+
+
+.software .feature-sub {
+  .sub-inner h1 {
+    font-family: 'Josefin Sans';
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #FFF;
+    margin: 0 0 30px 0;
+  }
+
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.55)), url(~@/assets/img/montain-peatio.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0 150px 0;
+}
+
+/*  --------------------------------------------------
+------------- Reviews Section Styling ----------------
+-----------------------------------------------------*/
+
+.app-features {
+  background: #e0e0e0;
+  padding: 100px 0 100px 0;
+
+  h1 {
+    font-size: 34px;
+    font-weight: 600;
+    font-family: Quicksand;
+    margin: 0 0 10px 0;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #A1A1A1;
+    line-height: 1.4;
+    margin: 10px 0 50px 0;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .features-left, .features-right {
+    padding: 50px 0 0 0;
+  }
+
+  .icon {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    i {
+      font-size: 42px;
+      color: #3333cc;
+    }
+  }
+
+  .feature-single {
+    margin-left: 0;
+    margin-bottom: 50px;
+
+    h1 {
+      font-size: 18px;
+      font-weight: 700;
+      font-family: Quicksand;
+      color: #222222;
+      margin: 0 0 10px 0;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-family: Quicksand;
+      font-weight: 500;
+      font-size: 14px;
+      color: #303030;
+      line-height: 1.4;
+      margin: 10px 0 0 0;
+    }
+  }
+}
+
+
+
+/*-  --------------------------------------------------------*/
+
+.split-features {
+  background: #ffffff;
+  padding: 50px 0 50px 0;
+  overflow: hidden;
+}
+
+.signup .split-features {
+  background: #F2F2F2;
+}
+
+.split-image img {
+  margin: 0 auto;
+}
+
+.split-content {
+  padding: 20px;
+}
+
+.split-content h1 {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin: 0 0 20px 0;
+}
+
+.split-content p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #A1A1A1;
+  letter-spacing: 0;
+}
+
+.split-content ul {
+  list-style-type: disc;
+  display: inline-block;
+  margin: 30px 0 0 0;
+}
+
+.split-content ul li {
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  color: #A1A1A1;
+}
+
+
+
+/*  --------------------------------------------------
+------------- Reviews Section Styling ----------------
+-----------------------------------------------------*/
+
+.review-section {
+  padding: 150px 0 150px 0;
+  text-align: center;
+  background: #F4F4F4;
+}
+
+
+.reviews {
+  width: 100%;
+}
+
+
+.review-single img {
+  width:80px;
+  height:80px;
+}
+
+.review-text h3 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.review-text .ion {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ff8000;
+}
+
+.review-text p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 20px 10px 20px 10px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #A1A1A1;
+}
+
+
+
+/*  --------------------------------------------------
+------------- Pricing Section Styling ----------------
+-----------------------------------------------------*/
+
+
+.pricing {
+  padding: 50px 0 100px 0;
+}
+
+.pricing-content {
+  padding: 60px 0 0 0;
+  text-align: center;
+}
+
+.pricing h1 {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1.2;
+}
+
+.pricing h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+  margin: 10px 0 30px 0;
+}
+
+.pricing p {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  line-height: 1.4;
+}
+
+.pricing .btn-buy {
+  padding: 40px 0 20px 0;
+}
+
+.pricing .btn-buy img {
+  display: inline;
+}
+
+.pricing .price-tag h2 {
+  font-family: 'Josefin Sans';
+  font-size: 24px;
+  font-weight: 400;
+  color: #A1A1A1;
+  margin: 0 0 20px 0;
+}
+
+
+
+/* ----- Pricing Tables Styling Starts ----- */
+
+.pricing-section {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background: #e0e0e0;
+}
+
+.pricing-intro {
+  padding-bottom: 30px;
+}
+
+.pricing-intro h1 {
+  font-size: 34px;
+  font-family: Quicksand;
+  color: #111111;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+
+.pricing-intro p {
+  font-size: 15px;
+  color: #303030;
+  font-family: Quicksand;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.pricing-list {
+  text-align: left;
+  margin: 60px;
+}
+
+.pricing-section .table-left, .pricing-section .table-right {
+  padding: 20px 20px 50px 20px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 80px 0px rgba(0,0,0,.1);
+  border: transparent;
+  max-width: 400px;
+}
+
+.table-left .icon, .table-right .icon {
+  padding: 50px 50px 40px 50px;
+}
+
+.table-left .icon img, .table-right .icon img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.table-left .pricing-details span, .table-right .pricing-details span {
+  display: inline-block;
+  font-family: Quicksand;
+  font-size: 28px;
+  font-weight: 400;
+  color: #808080;
+  margin-bottom: 20px;
+}
+
+.table-left .pricing-details h2, .table-right .pricing-details h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Quicksand;
+  color: #505050;
+  margin-bottom: 30px;
+}
+
+.table-left .pricing-details p, .table-right .pricing-details p {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 300;
+  color: #505050;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+
+.table-left .pricing-details ul, .table-right .pricing-details ul {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+.table-left .pricing-details li, .table-right .pricing-details li {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #505050;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.pricing-section .table-left:hover, .pricing-section .table-right:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pricing-section .table-left, .pricing-section .table-right {
+  margin-top: 20px;
+}
+
+.pricing-section .table-center {
+  margin-top: 0;
+}
+
+/* ----- Pricing Section Styling Ends ----- */
+
+
+
+/* ----- Counter Section Styling Starts -----*/
+
+.counter-section {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #F1F1F1;
+}
+
+.counter-section h3  {
+  font-size: 28px;
+  font-weight: 400;
+  color: #222222;
+}
+
+.counter-icon {
+  padding: 15px;
+}
+
+.counter-icon i {
+  font-size: 48px;
+  color: #3333CC;
+}
+
+.counter-text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.counter-text h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0.5em;
+  color: #222222;
+}
+
+/* -------- Counter Section Styling Ends --------- */
+
+
+
+/* ----- CTA Section Styling Starts ----- */
+
+.cta-sub {
+}
+
+.cta-inner {
+  max-width: 500px;
+  float: none;
+}
+
+.cta-sub {
+  .cta-inner {
+    h1 {
+      font-size: 28px;
+      font-family: Quicksand;
+      color: #ffffff;
+      font-weight: 400;
+      line-height: 1.2;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-family: Quicksand;
+      font-size: 14px;
+      color: #ffffff;
+      font-weight: 300;
+      line-height: 1.4;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+  }
+
+  padding-top: 150px;
+  padding-bottom: 250px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(~@/assets/img/paris-helios.jpg) no-repeat center center;
+  background-size: cover;
+  background-position: top;
+}
+
+.subscribe-form {
+  .submit-button {
+    &:hover {
+      border-color: #927f54;
+      -webkit-transition: 500ms;
+      -moz-transition: 500ms;
+      transition: 500ms;
+    }
+
+    font-size: 0.9em;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+    padding: 0 25px 0 25px;
+    border-color: #ffffff;
+    background-color: #927f54;
+    color: #ffffff;
+    box-shadow: 0 0 1px transparent;
+    outline: none;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+  }
+
+  text-align: left;
+}
+
+.product .subscribe-form .submit-button {
+  border-color: #ffffff;
+  background-color: #927f54;
+}
+
+.product .subscribe-form .submit-button:hover {
+  border-color: #927f54;
+}
+
+.formee {
+  .mail {
+    position: relative;
+    background-color: #F9F9F9;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    transition: all .3s;
+  }
+
+  input {
+    &:focus {
+      border: 2px solid #ffffff;
+      border-color: #ffffff;
+    }
+
+    color: #222222;
+    font-family: Poppins;
+    padding: 0;
+    font-size: 0.9em;
+    height: 49px;
+    border: 2px solid #fff;
+    border-radius: 5px 0 0 5px;
+    border-color: #ffffff;
+    outline: none;
+    padding: 0 100px 0 20px;
+  }
+
+  .right {
+    height: 49px;
+    border: 2px solid #fff;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+    padding: 0 25px 1px 25px;
+    background-color: #212f3e;
+    color: #ffffff;
+    box-shadow: 0 0 1px transparent;
+    outline: none;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+  }
+
+  position: relative;
+}
+
+
+#email-error {
+  position: absolute;
+  left: 0;
+  top: 150%;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #ff0000;
+}
+
+#response {
+  color: #ffffff;
+  font-family: 'Poppins';
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.product .formee .right {
+  background-color: #927f54;
+}
+
+/* ----- CTA Section Styling Ends ----- */
+
+
+
+
+
+/* -------------------------------------------------------
+----------- Bact-to-Top Styling Starts Here --------------
+---------------------------------------------------------*/
+
+
+.back-to-top {
+  i {
+    position: relative;
+    left: 13px;
+    top: 8px;
+    font-size: 24px;
+    color: #ffffff;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+  }
+
+  &:hover {
+    i {
+      top: 6px;
+    }
+
+    background: rgba(51, 51, 204, 0.9);
+    color: #ffffff;
+  }
+
+  &:focus {
+    color: #ffffff;
+  }
+
+  background: rgba(51, 51, 204, 0.5);
+  margin: 0;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  z-index: 90;
+  display: none;
+  text-decoration: none;
+  color: #0e1729;
+}
+
+.product .back-to-top {
+  &:hover {
+    background: rgba(146, 127, 84, 0.9);
+  }
+
+  background: rgba(146, 127, 84, 0.5);
+}
+
+@import "./scss/footer";
+@import "./scss/media";
