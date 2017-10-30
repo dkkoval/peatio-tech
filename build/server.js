@@ -1,6 +1,5 @@
 var express   = require('express');
 var sgMail    = require('@sendgrid/mail');
-var validator = require('email-validator');
 var app       = express();
 var cors      = require('cors');
 
@@ -10,15 +9,9 @@ app.use(require('body-parser').json());
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
-
 app.post('/subscribers', cors(), function(req, res, next) {
   console.log(req.body);
-  if (validator.validate('' + req.body.email)) {
+  if (req.body.email) {
     console.log('Processing email: ' + req.body.email);
     sgMail.send({
       to:      'hello@peatio.tech',

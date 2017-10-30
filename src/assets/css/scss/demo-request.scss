@@ -1,0 +1,131 @@
+.cta-inner {
+  max-width: 500px;
+}
+
+.cta-sub {
+  .cta-inner {
+    h1 {
+      font-size: 28px;
+      font-family: Quicksand;
+      color: $white;
+      font-weight: 400;
+      line-height: 1.2;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+    p {
+      font-family: Quicksand;
+      font-size: 14px;
+      color: $white;
+      font-weight: 300;
+      line-height: 1.4;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+  }
+  padding-top: 150px;
+  padding-bottom: 250px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+  url(~@/assets/img/paris-helios.jpg) no-repeat center center;
+  background-size: cover;
+  background-position: top;
+}
+
+.subscribe-form {
+  .submit-button {
+    &:hover {
+      border-color: #927f54;
+      -webkit-transition: 500ms;
+      -moz-transition: 500ms;
+      transition: 500ms;
+    }
+    font-size: 0.9em;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+    padding: 0 25px 0 25px;
+    border-color: $white;
+    background-color: #927f54;
+    color: $white;
+    box-shadow: 0 0 1px transparent;
+    outline: none;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+  }
+  text-align: left;
+}
+
+.product .subscribe-form .submit-button {
+  border-color: $white;
+  background-color: #927f54;
+}
+
+.product .subscribe-form .submit-button:hover {
+  border-color: #927f54;
+}
+
+.formee {
+  .mail {
+    position: relative;
+    background-color: #F9F9F9;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    transition: all .3s;
+  }
+  input {
+    &:focus {
+      border: 2px solid $white;
+      border-color: $white;
+    }
+    color: #222222;
+    font-family: Poppins;
+    padding: 0;
+    font-size: 0.9em;
+    height: 49px;
+    border: 2px solid $white;
+    border-radius: 5px 0 0 5px;
+    border-color: $white;
+    outline: none;
+    padding: 0 100px 0 20px;
+  }
+  .right {
+    height: 49px;
+    border: 2px solid $white;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+    padding: 0 25px 1px 25px;
+    background-color: $primary-color;
+    color: $white;
+    box-shadow: 0 0 1px transparent;
+    outline: none;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+  }
+  position: relative;
+}
+
+#email-error {
+  position: absolute;
+  left: 0;
+  top: 150%;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #ff0000;
+}
+
+#response {
+  color: $white;
+  font-family: 'Poppins';
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.product .formee .right {
+  background-color: #927f54;
+}

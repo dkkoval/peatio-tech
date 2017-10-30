@@ -1,0 +1,23 @@
+.client-section {
+  background-color: #e0e0e0;
+  padding: 5px 0 0;
+}
+
+.clients {
+  .single {
+    padding: 25px 0;
+
+    img {
+      filter: grayscale(100%);
+      height: 40px;
+      opacity: .3;
+    }
+
+    .single {
+      img {
+        height: 3rem;
+        width: auto;
+      }
+    }
+  }
+}

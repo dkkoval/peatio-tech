@@ -1,0 +1,172 @@
+.pricing {
+  padding: 50px 0 100px;
+
+  h1 {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.2;
+  }
+
+  h4 {
+    color: #a1a1a1;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0 30px;
+  }
+
+  p {
+    color: #444;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  .btn-buy {
+    padding: 40px 0 20px;
+
+    img {
+      display: inline;
+    }
+  }
+}
+
+.pricing-content {
+  padding: 60px 0 0;
+  text-align: center;
+}
+
+.price-tag h2 {
+  color: #a1a1a1;
+  font-family: 'Josefin Sans';
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+
+/* ----- Pricing Tables Styling Starts ----- */
+
+.pricing-section {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background: #e0e0e0;
+}
+
+.pricing-intro {
+  padding-bottom: 30px;
+}
+
+.pricing-intro h1 {
+  font-size: 34px;
+  font-family: Quicksand;
+  color: #111111;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.pricing-intro p {
+  font-size: 15px;
+  color: #303030;
+  font-family: Quicksand;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.pricing-list {
+  text-align: left;
+  margin: 60px;
+}
+
+.pricing-section .table-left,
+.pricing-section .table-right {
+  padding: 20px 20px 50px 20px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: $white;
+  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, .1);
+  border: transparent;
+  max-width: 400px;
+}
+
+.table-left .icon,
+.table-right .icon {
+  padding: 50px 50px 40px 50px;
+}
+
+.table-left .icon img,
+.table-right .icon img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.table-left .pricing-details span,
+.table-right .pricing-details span {
+  display: inline-block;
+  font-family: Quicksand;
+  font-size: 28px;
+  font-weight: 400;
+  color: #808080;
+  margin-bottom: 20px;
+}
+
+.table-left .pricing-details h2,
+.table-right .pricing-details h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Quicksand;
+  color: #505050;
+  margin-bottom: 30px;
+}
+
+.table-left .pricing-details p,
+.table-right .pricing-details p {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 300;
+  color: #505050;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+
+.table-left .pricing-details ul,
+.table-right .pricing-details ul {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.table-left .pricing-details li,
+.table-right .pricing-details li {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #505050;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.pricing-section .table-left:hover,
+.pricing-section .table-right:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pricing-section .table-left,
+.pricing-section .table-right {
+  margin-top: 20px;
+}
+
+.pricing-section .table-center {
+  margin-top: 0;
+}

@@ -1,0 +1,119 @@
+.software {
+  .features {
+    padding: 0 0 100px;
+
+    .features-list {
+      h1 {
+        color: #222;
+        font-size: 26px;
+        font-weight: 600;
+        letter-spacing: -1px;
+        line-height: 1.2;
+        margin: 20px 0;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+
+        li {
+          color: #a1a1a1;
+          display: block;
+          font-family: Poppins;
+          font-size: 13px;
+          margin: 0 0 15px;
+        }
+      }
+    }
+  }
+
+  .features-list {
+    p {
+      color: #303030;
+      font-family: 'Quicksand';
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.2;
+      margin: 0 0 25px;
+    }
+  }
+
+  .feature-sub {
+    background: linear-gradient(to left, rgba(#000, .1), rgba(#000, .55)), url('~@/assets/img/montain-peatio.jpg'), center no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+
+    .sub-inner {
+      h1 {
+        color: $white;
+        font-family: 'Josefin Sans';
+        font-size: 34px;
+        font-weight: 300;
+        line-height: 1.1;
+        margin: 0 0 30px;
+      }
+    }
+  }
+}
+
+.app-features {
+  background: #e0e0e0;
+  padding: 100px 0 100px 0;
+
+  h1 {
+    font-family: Quicksand;
+    font-size: 34px;
+    font-weight: 600;
+    margin: 0 0 10px;
+  }
+
+  p {
+    color: #a1a1a1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 10px 0 50px;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .features-left,
+  .features-right {
+    padding: 50px 0 0;
+  }
+
+  .icon {
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+    i {
+      color: #3333cc;
+      font-size: 42px;
+    }
+  }
+
+  .feature-single {
+    margin-bottom: 50px;
+    margin-left: 0;
+
+    h1 {
+      color: #222;
+      font-family: Quicksand;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin: 0 0 10px;
+    }
+
+    p {
+      color: #303030;
+      font-family: Quicksand;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.4;
+      margin: 10px 0 0;
+    }
+  }
+}

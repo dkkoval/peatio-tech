@@ -84,12 +84,12 @@ p {
 }
 
 ::-moz-selection {
-  color: #ffffff;
+  color: $white;
   background: #3333CC;
 }
 
 ::selection {
-  color: #ffffff;
+  color: $white;
   background: #3333CC;
 }
 
@@ -148,5 +148,5 @@ p {
 
 .logo:hover, .logo:focus {
   text-decoration: none;
-  color: #FFF;
+  color: $white;
 }

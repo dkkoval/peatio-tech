@@ -96,17 +96,17 @@
   color: #111111;
 }
 
-.navbar-default .nav-white > li > a {
-  color: #ffffff;
+.navbar-default .nav-$white > li > a {
+  color: $white;
 }
 
-.navbar-default .nav-white > li > a:hover {
+.navbar-default .nav-$white > li > a:hover {
   color: #999999;
 }
 
-.navbar-default .navbar-brand.nav-white {
+.navbar-default .navbar-brand.nav-$white {
   padding-top: 15px;
-  color: #ffffff;
+  color: $white;
   font-size: 21px;
   letter-spacing: 1px;
   -webkit-transition: 200ms;

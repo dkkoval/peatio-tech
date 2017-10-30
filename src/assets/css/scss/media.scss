@@ -12,7 +12,7 @@
   .navbar-default .navbar-collapse {
     text-align: center;
     border-color: transparent;
-    background-color: #ffffff;
+    background-color: $white;
   }
 
   .navbar-default .navbar-collapse {
@@ -30,13 +30,13 @@
   }
 
   .navbar-default .navbar-brand {
-    color: #ffffff;
+    color: $white;
     padding-left: 15px !important;
     padding-bottom: 0px !important;
   }
 
-  .navbar-default .navbar-brand.nav-white {
-    color: #ffffff;
+  .navbar-default .navbar-brand.nav-$white {
+    color: $white;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -90,11 +90,11 @@
   }
 }
 
-.navbar-default .nav-white .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+.navbar-default .nav-$white .navbar-toggle .icon-bar {
+  background-color: $white;
 }
 
-.navbar-default.past-main .nav-white .navbar-toggle .icon-bar {
+.navbar-default.past-main .nav-$white .navbar-toggle .icon-bar {
   background-color: #111111;
 }
 
