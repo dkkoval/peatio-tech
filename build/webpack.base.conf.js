@@ -10,7 +10,7 @@ function resolve (dir) {
 module.exports = {
   entry: {
     app: './src/main.js',
-    vendor: ['bootstrap', 'vue-particles']
+    vendor: ['vue-particles']
   },
   output: {
     path: config.build.assetsRoot,

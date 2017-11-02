@@ -1,13 +1,8 @@
 .hero-section {
-  background: $white;
-  height: 100%;
-  padding: 150px 0 0;
+  height: 100vh;
 }
 
 .hero-content {
-  overflow: hidden;
-  padding: 30px 0 50px;
-
   h1 {
     color: $text-color;
     font-size: 36px;

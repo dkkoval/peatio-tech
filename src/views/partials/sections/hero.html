@@ -1,25 +1,26 @@
-<div class="hero-section" style="background-color: rgba(0, 0, 0, 0) !important; height: 100vh">
-  <div style="position: absolute; top: 0; left: 0; background-color: rgba(210, 210, 210, 0.7) !important; width: 100%; height: 100vh; z-index: 0"></div>
-  <div style="position: absolute; background-color: rgba(0, 0, 0, 0) !important; width: 98vw; height: 100vh; z-index: -1">
-    <vue-particles color="#9389f1"
-      :particleOpacity="0.7"
-      particlesNumber="50"
-      :particleSize="3"
-      linesColor="#938901"
-      :linesWidth="2"
-      :lineLinked="true"
-      :lineOpacity="0.7"
-      :linesDistance="250"
-      :moveSpeed="2"
-      :hoverEffect="true" hoverMode="grab"></vue-particles>
-  </div>
-  <div class="container no-override" style="background-color: rgba(0, 0, 0, 0) !important; z-index: 3; height: 100%; display: flex; justify-content: flex-start; flex-direction: column">
-    <div id="main" class="col-md-12" style="background-color: rgba(0, 0, 0, 0) !important">
-      <img class="img-responsive" src="~@/assets/img/peatio.png" alt="Hero Image">
-    </div>
-    <div class="col-md-12" style="background-color: rgba(0, 0, 0, 0) !important">
-      <div class="hero-content text-center" style="color: #333">
-        <h1>Peatio [&#35988;&#35973;] Open-Source Exchange</h1>
+<div class="bg">
+  <div class="darken"></div>
+  <vue-particles color="#212f3e"
+    linesColor="#212f3e"
+    v-bind:particlesNumber="50"
+    v-bind:particleSize="5"
+    v-bind:linesWidth="2"
+    v-bind:lineLinked="true"
+    v-bind:lineOpacity="0.7"
+    v-bind:linesDistance="250"
+    v-bind:moveSpeed="1.5"
+    v-bind:hoverEffect="true" />
+</div>
+
+<div class="hero-section">
+  <div class="container no-override">
+    <div id="main" class="col-md-12">
+      <!-- <img src="~@/assets/img/peatio.png" alt="Hero Image"> -->
+      <div class="hero-logo">
+        <h1>peatio.tech</h1>
+      </div>
+      <div class="hero-content">
+        <h1>Peatio (&#35988;&#35973;) Open-Source Exchange</h1>
         <h2>Cloud deployment made simple and secure</h2>
         <p>
           Peatio - Cryptocurrency exchange for managing digital currency.

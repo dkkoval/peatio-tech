@@ -31,7 +31,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~bootstrap/dist/css/bootstrap.css";
-@import "~font-awesome/css/font-awesome.css";
 @import "~@/assets/css/style";
 </style>
